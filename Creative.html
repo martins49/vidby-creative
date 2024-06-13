@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/2e3cddff52.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        screens: {
+          sm: '480px',
+          md: '768px',
+          lg: '976px',
+          xl: '1440'
+        },
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            primaryColor: '#E53B10',
+            secondaryColor: '#f15b4d',
+            lightYellow: '#f5e887',
+            greyColor: '#ddd',
+            brightRed: 'hsl(12, 88%, 59%)',
+            brightRedLight: 'hsl(12, 88%, 69%)',
+            brightRedSupLight: 'hsl(12, 88%, 95%)',
+            darkBlue: 'hsl(228, 39%, 23%)',
+            darkGrayishBlue: 'hsl(227, 12%, 61%)',
+            veryDarkBlue: 'hsl(233, 12%, 13%)',
+            veryPaleRed: 'hsl(13, 100%, 96%)',
+            veryLightGray: 'hsl(0, 0%, 98%)'
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+  .text-shadow-custom {
+    text-shadow: 5px -3px 4px rgba(24, 24, 24, 0.5); /* Customize your text shadow here */
+  }
+}
+        /* #hero{
+            background-image: url("https://framerusercontent.com/images/7ArtrqVmaDi66qjMpzjCbp4tVE.jpg?scale-down-to=1024");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 90% -25%;
+        } */
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+  <section id="hero">
+    <div class="w-full  bg-center bg-cover bg-no-repeat opacity-125" style="background-image:url('https://i.pinimg.com/564x/a5/fa/17/a5fa17358a740ca655d821725628869c.jpg');
+background-size: cover;">
+
+      <div
+        class="container mx-auto p-6 h-72 font-bold flex flex-col space-y-16 md:space-y-20  sm:h-[500px] md:h-[550px]">
+        <section id="hero"
+          class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+          <article class="sm:w-1/2">
+            <!-- <h2 class="max-w-md text-center text-3xl font-bold text-white sm:text-left sm:text-4xl">
+              Revolutionizing
+              <span class="text-secondaryColor">landscape of </span>
+              Property Investment
+            </h2> -->
+
+            <!-- <p class="mt-4 max-w-md text-center text-2xl text-slate-400 sm:text-left">
+                Discover the future of property investment with our smart investment strategies.
+            </p> -->
+            <div class=" shadow-lg bg-primaryColor hidden  text-white text-2xl text-center rounded-2xl py-8 px-6 md:block">
+              <h3 class="hidden md:block  text-shadow-custom ">Transforming Global
+                Communication:
+                Exciting Investment
+                Opportunity
+                in AI Translation
+              </h3>
+            </div>
+
+            <a href="#" target="_blank">
+              <div class="md:my-10 text-center">
+                <div
+                  class="bg-secondaryColor text-white p-4 font-semibold text-xl md:text-3xl  text-secondary uppercase rounded-lg btn hover:shadow-inner transform hover:scale-110 hover:bg-opacity-50 transition ease-in-out duration-300 ">
+                  More Info</div>
+              </div>
+              </p>
+            </a>
+
+            <!-- <p class="mt-4  max-w-md text-center text-2xl text-slate-400 sm:text-left">
+              We provide a wealth of knowledge through webinars, articles,
+              and personalized consultations...
+            </p> -->
+          </article>
+
+          <img class=" w-[63%] md:w-1/2 rounded-xl shadow-lg "
+            src="https://i.pinimg.com/564x/f4/36/28/f436284025cb958017acbd39e3ec2c85.jpg" alt="ai tech img" />
+          <!-- <img class="w-1/2 rounded-lg shadow-lgs " src="https://img.zumpercdn.com/383570148/1280x960?w=680&fit=crop&dpr=1.5&q=51&h=383
+        " alt="blue house" /> -->
+        </section>
+
+        <!-- <h1 class="text-4xl md:text-6xl text-shadow-custom">
+                    Portside Place
+                </h1>
+                <h1 class="text-4xl md:text-[55px] text-gray-100  text-shadow-custom">
+                    A New Horizon on the Water's Edge
+                </h1>
+                <h3 class="text-xl sm:text-3xl md:text-4xl text-white  sm:pt-10 text-shadow-custom">
+                    Liverpool investment Opportunity
+                </h3> -->
+      </div>
+
+    </div>
+  </section>
+
+  <section id="highlight">
+    <div class="container mx-auto p-6 ">
+      <div class="bg-veryLightGray flex m-6 flex-wrap rounded-md  justify-center sm:justify-between md:justify-left ">
+        <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+          <img
+            src="data:image/png;base64,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">
+          <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Invest in one of the fastest
+            growing markets globally </span>
+          <span class="font-semibold block md:text-lg"></span>
+        </div>
+        <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+          <img
+            src="data:image/png;base64,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">
+          <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Over 150 languages
+            supported</span>
+          <span class="font-semibold block md:text-lg"></span>
+        </div>
+        <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABYElEQVR4nO2YXW7CMAyA/cJ2J7YD8IiNuAI32diuNbSb0N3BfukUEBPN2iYNJHWLPykPVSHJJ/9UMoBhGEUQorpthd73LRgDdSL1dvvEiJ9M9JN6eL1aPd9yOenev2LEvbtjcBMm+kgRaIjsdotMIrVbjPges0l1+sNms4w51D889nnIXheE6OUSGQiRmp8lRAbt4/+QEb+Z6DCWCHvnp4sQHRjxa6yuxd75ySKx5BLxyS5SCjGROUZE7pDbKmpE5iYCkc9JF4BMH0QT8Yj5rkDCPqNHZHYikKvWxCICj5lafYiJPOqXXaYuogExEWWIReTGgo0pZm9MW/WNRVWLtI1puWMsqjq1rse0EhiLTkOEThJnEcTj9FILcf8vtYjeplrsTqZykXASWYtdA5J7Gp8LLj2NzwWXnsaXQgaI/LVCUIas1699rblBWyvUtrijNTdotEIFl5brFWjNhmFAJ78lJWH7+wD/swAAAABJRU5ErkJggg==">
+          <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Key working relationships
+            with global giants in the tech
+            industry </span>
+          <span class="font-semibold block md:text-lg"></span>
+        </div>
+        <div class="m-4 w-48 md:m-2 p-6 hover:shadow-2xl hover:cursor-pointer rounded-md ">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFy0lEQVR4nO1ZXWgUVxSe0t+3/r2V4kMp9Af6UFrooy1UsGjNnDOOfzGaCEYSVIwgsbVBLGqNDVKxrYhWTa0xUrCiibFGI0aNDwpiuhpIqIJBFNtUEo2Ze+fnlHtn72Q3zuxu3F13hXxwyGT2zNzznXPuuefe0bQJTGACE8gVuGF8zBC3MoA/GUAnR9xt6/oX2tMCMs1nGeJPDNHjiDRWGEArmebLWrGDI+6WRhsGOZs3k3v6NLldXeTs3Ut87lxF5gyZ5gtasYIhzlYk3HPnaCy869eJl5Wp6HyjFSNo8uTnOMDfwkhn/36Kgnv2rB8VxGHS9dfzY4xpvsYRlzLE7zlANSsp+eDh9OmTGMAPHGCHEjkHDOPDxGctxC+lp8vLiSwrkgh5HtmrVqmorM45CRvxc4b47yOTE3EobNJygD8Sn+cAv8hoNDZGk1BROXlSveNKzokwxBPy5YsW3bbXrj3Hq6r6mGkyZbi9eDE5+/aRvX69ItiSVKkA7or7XiwWGgX3wgVyDx3ypbk5cIiN+C0HqJWCuIobxidZEbFM831mGIuosvL5wMCFC1/iiL9LT+/c6Xuzo+MRIlzXP5KGlZYSOY5veyxG3sWL8lrMmdCohpdnV2SHlktQSckrHLFNem7dOnJPnCBn2zY5oIXY/dA0Jwk9BlChdBT4/Pm+x9esIbu8XF479fXkbN8eKXZtrSLzc06JMMRNKT0IcCROpEEaumfP6Dw4doz47NlJ+l5fX+q5c/iw0m3JNZEf5YvLyuTccBoayNm0Scwj5bnTcSLHxf8iYklTY2CA3JYWsktLpb5YHCPhODIqcQf15IWI09yc7Lnz55OIcICY9Hh3d6iNdnX1aFT6+8Oj0daWGOnenJGgadNe5YiHZJ5v3UrelSuBOE1NasDLwzNmvMEQ/5FG3rwZbuSRI76+YRANDobrdHUllvzcpBYDWM8AnIwrTbxBDIwUfxMMFqVXOqSmJjq1Bgcl0biDmrImYQHMVN6zlywhPm8e2cuXy9U4kJUr/fuVlcRnzQoIydLrecQrKmQpdg8eJO/aNXK2bPGr1q5d0USIyF6xQhH5OmsiHLFRDnrgQMpBx/ZOkkgczsaNoZETcysVnB07/AjrekPWRER+ykE7OjIiIkpqkP/BTU92v6LC2cuWBSnj3b2b2imnTinSlwtHZObM8N97eyloJtO968YNVQ0t0rRnioqI8nLiqh8JxwkW0WGANwtDxDTDbRM7w4ReLR3spUt94gBTxmW4pevvMcQLDPG/uPBggorczkTS6YvfxDZ3wYL0MsuvggzxYYJNQrosxHfTt+9PgTCA49FEAO7LVGpvJ+/OHfJu3ya3p4fcWCxzuXqVvFu3/OfzIG57uyJyP1VEhlS7TcPDVHR48EDaFk+3oUgi3DB6gvDNmSP3EWLlTlrJE4TX1MhVm1dXR+uIlb2iIvr3qip/v1JTE6kjuwehI2waTa3orpgD7Cl07vPMZXckEVEJGMBIvMfxW4mmpqRuN6nzbWz0y2NtbbjOpUvBwOI6TEftBMW7vIhxhA2JNgkbLdN8R0sFG/EzjtifSU+k9uz2hg3hCpY12ntFHAuJZ9OtVW58zxOXftswPtUygTh0YABDxUaEAQwlHohkBAYwIAdobS08kdZWRWRAGy84QJ80sq6u4ETsujo1R/rGTcQCOCMfNgx5cFAwIvfuySY0HpEz448I4upgwre1hRPp7PQrTn19uBGcBz2WuA6DPIkRY3R2ho8hjpJGJ/r4z4dHEN9SL4hMr5ERuXsUe4coyG8iKY5+xOcFuQONilhdPK0QacQ03x43kXhUutOlV15xbzStLMS/HotEpumVT7jZptW40iuPsHORVgqWrseCT2gtLZFtRK7FPXo02IhZuv74aaXAEb8qggZxddZEREijPi8/CWGIXtZplRCV3woWDYBftVxBfK2S30cAesccAuRNuBgL4DuaOvXFnBGZgPbk8D8zXquDMGDesAAAAABJRU5ErkJggg==">
+          <span class="pt-2 block text-gray-700 text-sm md:text-md pt-3">Established unique products </span>
+          <span class="font-semibold block md:text-lg"></span>
+        </div>
+
+      </div>
+
+      <div class="my-4 md:mt-16 text-center">
+        <!-- button -->
+        <a href="#" target="_blank"
+          class="p-3 text-white md:text-2xl  px-6 pt-2 font-semibold bg-primaryColor rounded-full hover:bg-secondaryColor  transition ease-out duration-500">
+          More info
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="container mx-auto  px-6">
+      <h3 class="text-center font-bold md:w-3/5 md:mx-auto md:text-xl">Significant traction with many blue-chip clients
+        achieved in its first year with revenues to match</h3>
+    </div>
+    <div class="container mx-auto  p-6">
+      <h4
+        class="font-semibold  border border-primaryColor sm:border-2 md:border-4 md:w-11/12 p-4 rounded-xl sm:rounded-lg md:rounded-full md:p-12 md:m-8 md:text-xl text-center">
+        In an era where international collaboration is paramount, our technology stands
+        as a vital tool for businesses, educational institutions, and individuals seeking
+        seamless cross-cultural communication. We are not just creating a translation
+        tool; we are fostering a more connected and understanding world. By investing in
+        our startup, you are not only capitalizing on a lucrative market opportunity, but
+        also becoming part of a venture that bridges cultures and unites people.
+      </h4>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mx-auto  px-6">
+      <div class="hidden md:block">
+        <h4 class=" md:text-left font-semibold  sm:text-xl">
+          Over 150 languages
+          supported
+        </h4>
+      </div>
+      <div class="w-9/12 rounded-full mx-auto mb-3 bg-secondaryColor bg-opacity-30 sm:bg-transparent">
+        <h1 class="text-center font-bold p-3 text-2xl sm:text-3xl md:text-5xl">HIGHLIGHTS</h1>
+      </div>
+
+
+      <div>
+        <h4 class="text-left md:text-right font-semibold  sm:text-xl">
+          Established unique products
+        </h4>
+      </div>
+
+
+
+
+    </div>
+
+  </section>
+
+  <section>
+    <div class="container mx-auto  px-6">
+
+      <div class="flex my-4 ">
+        <div class="mobile inline mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAADF0lEQVR4nLWXz2sTURDHn2j9gTYzaRURRfx1UlAwqMnMlh6kKvgT0bt66MW/QESLoheh6kWLB0+eqqKiCBUPngTBehBE8bcmMxt/oPbQCqISmW2iTbrZ3bTxwSPh7b75zMz3zXtvnXPOvafUcmE44HvQPdGuudTmknNTXEh72+lmDmZcS9VgPptaIQwjyliabBfCo2FQYbwjBGerHlikzYAGnfBBCHRACZ/ns20Lq8BBmpoEFsLBit0nK910JbgVCk0KFsLPwvC0EXCR06uU8JsSnKuMTQR8wfcg0wjYmnbAWmX8ooynY8G1k6NakrkFr3WDMgwpwfHoyQwjZqBuZzwSlF/wH94lcbrAbdmCh6sTpVoYH6oHu0JW7s66cxrIlosw8qnYNX+2MF79Nw63bbUKw7NwnaFv0mAdNXQ+n100SxguWY2+zqRBGXvrOHotKCGGvnoyKeEDIewJdrjYVU140QyWOt00n2F3HVneKoEvhNeTbTSpTZFgIXhvsM/U3mq/L7a4GaP1Cf6YrBTsuRC+SbrR+B50h4KFYNhWb6Cxh9uUIF+O7IMQnhHCX+V3ryjjS4MnhWoUWBm+Sw42xqVOcrBfCS+PkeWbzZ0EGGM0wv4AWj3+yhaNcqrrP4GhEOhJ2F/z7JBlqbTXTY3T228UbKv3Y+e8ObWaCuHPdx1zFyjhPeW0J4SHY8GaS21OCL4ihK+D0hnnENxQTi8Wxt92oNgxaM5EgkvOTbGbQ7m4wwufoW90cwhW8ThDhVx6q6W6rP9XKzsluBkJTtoMXk9z01UZ7hvUujkihDuaApYg8lDwsbD3badTBokFD2ZcixDsawRsmhY3wBJlPFWJ1rodMLKutV0ZTsSCfa9tZXBgM/Y2AB4IHGb8GPLs4AcPlplzsamOuqqEgQs52COM26NunEp4N5HG+WxqvTL+qNUuVGOCx9UHRk3UhI+UQROBheGkpdzuSrHgCXZ/XKqDQx6GLOpahyx1zQJLDvb/NVxgXGP359pIx0Tc0xQowXCxA5ZWGbcDPQxqLTh5KLVpMh929rlUgf4BO6ejjWKU8YQAAAAASUVORK5CYII=">
+        </div>
+        <div class="text-gray-700 text-sm sm:text-base md:text-xl">
+          The only video translation software recommended by YouTube
+        </div>
+      </div>
+      <div class="flex my-4 ">
+        <div class="mobile inline mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACE0lEQVR4nMWWPWgVQRDHV02h4LuZu5BGYhFBRQsFlZib2ZcHfqUQFJGksdHGQmwsBS1FIYiCIYEUKRIEG8FYhFRaCYIWNlrYSHKzFyU26UTQk33Z8+UF36HvvT3/MMUsy/525mZmT6kua3mof4epwhHRcMpwqNPj0YHloSBSviUElw1j9tsIvyUxnCgdLIw/TRyMlAWe+axhjzWhyn6b7rYPNDpkYVwUhjuZUluKwEL4oG3QZgnDh0YKg9PlgQne/xdwEodnDUMiBI8zpbaWBv4bZTXVYwg/dgX8dTAKDMMFYbxtGCYN433DeF0ojD/V1PZ8X6p39tlqtp8i1XC1I6hUw93C+KVpIDTbd2F8IwSzwrBm9wrhuY6jFYZnBdAms622RL27OoamBBcLYYSvE4IbomE01XC0qLf/SYbhVWGEBHe7AtosQ3ipPmdbgvGe8iXReK30iHMZxpulR2yVDEb9LYprXPnUShUGWqT6oVew6Mq+P0cME17BqY4ObiwoYfzhBsa0V3DCeLgxnYIxIVhx/oxXcErBsUaKQy2Eb9cvAXNewUJhnIPrhUbw3PlPvILTGIfzv0X7DBqGKdfHT72CJYaTDrRa9xlvrUcM817BJg5GXPu8cxe54ip8wS+Y8PxGkKHgjJtcL/2CGV848CPrJ8OVvfmrlWg85A1s/7mWNITZqNqWr61Sb6W+VlM97R78C3IKnuhBw4i4AAAAAElFTkSuQmCC">
+
+        </div>
+        <div class="text-gray-700 text-sm sm:text-base md:text-xl">
+          The world leader in video translation and dubbing
+        </div>
+      </div>
+      <div class="flex my-4 ">
+        <div class="mobile md:hidden inline mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAACXBIWXMAAAsTAAALEwEAmpwYAAACM0lEQVR4nO2YMWtUQRDHH1gYQZlZooWi+QQJEkS4N7MhrSBphGtTBvQbiG0wsdMynZhGmxRaigohlaSxSWERvbvZJ2ordvFkX46oye3jcZfzvb2bPwzHHfNm9/dmdud2k0SlUqlUqgnQx1vJWUlhPrNwI1aTFOY9xwk4R/jCMXbHwJ6fgBPC3RpMbGgTwl2FczXIhGaOKypLYfzlCF4KmbtioSkW7zmCV/nvcWcOnJBJ+7UeSQ05gixKOCH48SU1s0W9td0wc47hZ4xwD4vAjsZlfBQdXLth5srAdRivRwf3aTGZKgPXblw9Fx1cy4IpAyc3L0xHB9dJze1ScIxL0cE5wtdl4Bzj2/jgOLf7hVkjfBD3H2eCp7Jgrv2bLTMjBM/G4lQgjAeO4IMvVf+Zfx/VWKRHHhw2W++F4LEQrgeN4Yn3iyZzQrjvrOEyO+Vfa9Dmz9UbDjqfFy5eTgZQi6avOAapLVzGcGcQsKM5WGjWEk4Iv3WbyZlh4PzzQvi9dnCO8U1yCnKE7+oI162DicJxnw0jcI3tGFbzt8awF7zqJtzqvdmtoA/D3uFYsBoea0SZSwLKLKwEA/+Jv9Hz2Sjwyefg4wXXpMId08RnLrOw0s+EYfOw5KBV4LPdW5fbQR+CVs9nM+Sju+VxaZ/j6pv0gGUJa6M8If8XMMaDsjfdqrGVy0/QsOPr/PQNdnz8yuCEcH20mwOsVQb3dfHS+Q7jcqjhDmM+ro9fGZxKpVJNjH4DqCXVi0YQ+J8AAAAASUVORK5CYII=">
+
+        </div>
+        <div class="desktop hidden md:block inline mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAABm0lEQVR4nO2WMUvDQBTHbxDU6b0MgoMg7iqFLu29aFZHZ+lW8Av4FZwUih2dHOtgHUUdOzs7uBTruxTxA3QRK9cmkV4MtMR6Ic0f/hDuf3n8uNy7nBCFChXKgd69tXUmaLLEy0yYoKmZIkBFUFeEw2wZ6hGg78KxfSCcsGZaLEAmvGeCk5El3DHhVyYAWeKnIufIbDzlwuE4s7+CZ0mng5J4bh3Qr+JmEmB/D7asA74ciOUkQJ1ZB+xVnJ0kwDcXd60DKsKrJECWeJsFwKEibPQqG6thPf3MEi6ydVBL8BVBSxFej5/T1VuMPwkT3vSrzvbQE0vm/tNjOtN71BZgQ0wpPfefAYG7nliZFlA3zaz7Mi1ga1q4UKPmWcgm4fiVvD1uEOj8kn0ENq/wnaBW28xSA0aTfuaWYwUCscQnbWEorK/fNbP8A/oulCcssRY0yqmZMcGztjmu545qSazFs7w3icoEYBX3lYSBbSgVWsJAM4nciSWU9NKnMUsozREQH9N+PiZ8mBvgqwtO7NhxZ3PXA5wbYKFC4u/1DSRkhKSQYFjDAAAAAElFTkSuQmCC">
+        </div>
+        <div class="text-gray-700 text-sm sm:text-base md:text-xl">
+          The only real-time translation solution capable of translating Google
+          Meets, Zoom, and Microsoft Teams video conferences
+
+        </div>
+      </div>
+      <div class="flex my-4 ">
+
+        <div class="mobile md:hidden inline ml-[-2px] mr-1 md:mr-3">
+          <img
+            src="data:image/png;base64,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">
+        </div>
+
+        <div class="desktop hidden md:block inline mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIklEQVR4nO2Za2gdVRCA1yfWJndmk4ZaTf0jCopPYpPcmY23iLUiCoL0jw98YEWrKKLWH77QWkUtUiooKmJFC9WKxR9Ci1jFPkQsWLAotYSYe+fcJE181Fe0po3M3t3kptndu2nOXqtk4Pzas3POd87MnDlzHGdG/mdS7My1C+HjhvFjYfhGGAcM4R4h2GoIV5l8bvGo4xzrHK1iOLfIEHxuGEdTtL2Sh1tGHecY52iR0YJzvDCsEcZDKSGqGnxY7Mw1/dsMzugS5zjDuH7qAONNCHf2FABVn2F8QQi7hWCdeLBEF6kuIEL48HQgxhrhu6pvqL0pZxh/qILsLpF7ZaYQht3TDcGwFRBt+dziyuLAMxN2jPGQED6WGYgwPmoNorL674dRL/I7413ZgBBsswrC8LtGscDv/poMCr+pFVgHMQwlmyDa+jtmz03UTbDCOogw9tgGMYWGOQGIxJjXl9ZB9OS2bFr7Ve/uc5wTo0zLVED6rYMIw/12nR3W+XrJzSfAfmsfZEFjc8UBbeyGZgWuVwGB1bF9Cd9xshBDcJslkFdVX9lraBGGX2qdNZmIYXh5WiCEHxU7W2epLmF4KwF2U+ZJ5hEfjoSvm7Z5J/s6PFyW0O+7gULLKU7WYjy4ZmoQsL3suVeMLYSHy4TxYAzEnjAsZyr+SUywa2IEwhEh3GgYt+g3/1LFuEEYHigxXhD+293mgmF8Izma4eAgNTfWPwNWKMKuNP/ubHNOKHmNHcJwqyFYbhjvFsabNOs9LDSvzhRC7dswPKVNyL2jnM8tsKcX7xWCTw2D0dS+7GHBhu4Z+U+JEFxoPHhIGF/Tpk5c/b3U3tSqFyZN+tR5Kxcy97pJerrc+ULunYbxOUPwZsnD8+sCMFBoaRDG9yLypm3qyNqnTHCtYfgjIiId0DBcYlio/RR+0qlOUBSGlb0euJmCREFUpxx9efdcQ/hnjXPlgOThIl8f4SvRZwnsChfGupQ7ms6ulRMZgrVpT/hK/9zlCSnK1ZmAqI3XvOkRFNOACEGv9tf/EmCfzwRECB6MGzQ0g4ofpNkRGK66VCXumnUpe3hj3KC91Hyq9vHrvml2JLj56X8JsE9mlCi6HDuo53IAsjklyOZaOoXg5kxASgT3xQ2qgcCf2GHJZEL7ytfZ3tQa3wdeygREc6u4QXsKzkkByLBFH1mVCYhW0fX9I2rQYmfTaRVY2J3OtOBrv3+XOz/GrPrEazzLyUpKlzSeGfmcQLDU/86w0DAO1QAZCjPbsge3R5qqN34Jy0yE4e0Ie5bvu+bM0++ag9Uwq+XjESuqMAc76vLCpasZ45w7/Al64BqCckwfM/42AttjQJdmDuGDEN6QIlVZkVTL1ZpWgv+szBRAnU+TQyH8O8I5t2pBIjQJnUyMEz8d6it2uucJwYuG4eeIvlv0BUujmjWAXsqdoYWFmKrH3lIeLh2fXOssk8d7hODXuLBrGJ6oLvX0LZo7WxgfiapiCmO/nvB6fZgWhCG8Xt8xYia1NqxRaflGX5mEcF+qc6SSk23Ql+FwFzWEi39nj/Yt8eCyI4Lwqx2EIzETWR9WAfXZ2RD+lBIgqn2hr1ZjByThJ3G7qTfTKYMEdaoIO8dBfcT0+zCsmQZAtQkd1CuvE6T28fVg+GDqIHGZbJCViodX2YCoWqARybsUjP1sTETbP+V6sB58lTfwia1MuYuDwTbZBAlgNlaZ9aSxw6zZqhjCHzMA2efUW4L6rl0Qhs/qDjIjTjbyD1pS/bkoQy6EAAAAAElFTkSuQmCC" />
+        </div>
+
+        <div class="text-gray-700 text-sm sm:text-base md:text-xl">
+          The only software for real-time translation of spoken conversations for
+          multiple simultaneous users in multiple simultaneous locations
+
+        </div>
+      </div>
+
+
+      <div class="flex my-4 ">
+        <div class="mobile md:hidden inline ml-[-2px] mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFPUlEQVR4nO2aTYgcRRTHy/gV3ey817vGkJAoqIjE7yzZTL/qcSAgBIxfiAdFRQ9GjAa95ODXQVRQUBKMYiKoRC/moNGDXhQF8SNiYgwGwQ/cj67q3Zg9xM9ks5uMvN6end7dmemu7t6dYdN/qMPu1Lx6v35Vr19VjRC5cuXKlSvXqSmP4DZF+J4m+EYT7HRlV1HMVynC7VpiJdyUxBOeAxtEu0iVrBXase7g5vZ2LU8T2emwoXZ8gAoXJ7U9ZFtXuBLv0Q7c0lcGTGSkIsQCTfiiIhybjAbhmJL4An9mak8Rvt8EmNtjpjZHersKinD31BkDfykb7jO1JZTEJ7N0Tkv4uhmwkvCysY/TYEPL5KTnWOtiG/plnThbSfizsYNw5OBKcZYRMMHOiAg/bDqNmz5Agi/jG5PW5RHOVTyna6WJg5yNOUE1sDcyWCx0mdjzHLy7uY/wX2xjWloXRAEnSWCcjTlBTYf1bLzO1JaWcGvzJYKHDA3i/sbTBfeJhOJszDlAEWzThJtMI1sVZ2NOUE2AXxfmUxD+rbM2/vHswmrRBuJszAmqTgLsH17TscTY4GDRulJL+JATmN8Id3OyEG0kzsacoDTBUSVxmCObCDZLDRYLl3CVxU8+/F73m+8o/KQJnkk6vdtKWlp3asJjUUkwWC5Dg8VCb8ucrQixQEm8UUt8ya+6HFxfEeK0uN93bVg7I6KR0HiYy9m4Y/SVxUJFcC8XLlrCs67TuSYR7KHy4kVa4mcznCL8dOj6JR1R3+cHowgOmsCG2ltxfBx24CIt8dc6M2WbSWB8acI30qR8RXBNQlh2+G+u9iJrfYnfN6wTZOEBYVKUa4mjTZwaPUzdnc1s+DushMA+tNN5aYR92bzwgB9jA7sOXhXlEPeJUVUlBvYc6Il6B0fYOB4b2HOgJ61Dsw0cZZ8LkubHLhKeGywuP4f/1iVYNZ+AVclaoQi3TFaIvLPwByG8KytgTVhShDuSNt7AZAZMsDVY118EwJMQG7ICnm3FAD5R7av8B+i/4/f6/zjlgZUN18aNsLa7L+OSMM16jd0IDnBB1FpgwpvnBHbC4XHPxguzB6boKim8hhXhTfzd2W6KLDv2GiYczxTYTVqkZyTl4MY5BdaEuxiaI11tA9S9LGsw3gTwsVB4nOCVty8zYFfi1SkSyw/8wLKA9fMDgZdwvY/NDbCc2Mir1Z3daWC5KjLdS8cHJjgaTNNN/mDOosX1DseMBpT4UBpg3hOne+j4ew0Y3p5yOM8fBp22THaS8EGaATXBq6mACfekBH6i9vDgqyCgu6pw7wQdf6vcLk6vRlkT/pxiwB1pgHn6pVhSH1fK4gy2M0DdyziBBZ89MmHcwfW1ztaD1UF596QJH+ejHnagbpPQP5fAfMLZyBct4SM+3wof7+ja0hidPCvjDqGwHzO5eWtUAMwWsMmmRRFsDkV9a70rkJHA2XE+BYxzSd1uwBw8zvB8gRD63n7ds/Tces73aAnu1EFA80t+6tTBN/f2iDNbCcy3CxNTOOQXwYFq0GrJE/f0l85b2nCgIbvjfC3htTq3fHUP2VoFHH1ICEf40q6vLBbGGpCvPfxbAwlP+9ck4RMJBzdW+7UKmEEC32qnJASvKIlPubZ1Q2xQU7XbGp51eTkwzu8Ia4L7G0zp7WnsKonf1U1GJVglWinXhrUNyrvNaexqie/OrLLwZOIfnmUlrlm1xG+nRfcPfr2lsev/5GLa9jDtMslMwS/inteEn/PNYvWgLa0Y2o804SdawqPVDUGuXLly5col5o/+Bz1z+EDITc9yAAAAAElFTkSuQmCC">
+
+        </div>
+
+        <div class="desktop hidden md:block inline mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAADwUlEQVR4nO2YTYgcVRDHn4kfiTpT1bOKJK4E1sRDcjBx/JiueptF8SOIXiQLIQQxEAPGa9STHwdBI0HwILp68hAUQQUlBw3k5GFNNuIhCEZls9v1JhtCgqASUeNIdU/v9mZ6et7szGCQLXiHmel6/9+rV1Xv9RizbMv2P7HGmLlabOmO2drwanOlWT3ErY6g7hgbwvC7hLB7YGLR1tIGx/CKjtlaeb1P5FwTLjP+nLMw0sl3tlauCMFzwnhAKAg7wkkIWzQCqVAcDYLNnReEWbjENwx2eMDNLGjhJcfBzkJAx/hRqxh8WCw0vDq7qHnBDgvTyLVoEf5QDEh4pFUIv/KI/G7d1ozQwY4+hK/nRP58sZPFfa2AwTPGw+YsjOi2dorcAmAQJtua0WJ8v9CpYcwKIXzZMTjHIEL4kn5nBmSOg52O8JQjvKBw52io1FeBxrhZ2azCaWH8JxOJs0L4rtxTGjL9tjMP3XKDWHxMh6uuub7oWSE4lFfBC7kI353aZq5ru0BjVkQE94uF8bq98eaOcLO1yq2O8aeMyI8zNLQ271kXlh8phEuHhRfy/E9uNNc6xqOZwrogYUCFgEI4kdNm3skFJDzoBch4NM+/bmFvS0EyHisEdISTOb1p0n8x2NqwCafyteDtnGf/ylkJjp0evWlNU3TKV6BXQGnjP18HjI+nK7koDG/FTozH/SOAo7pNHQfDE76A2gn0t4jxSf18hoNNpgkx0W0EezUpAEzzs26huhiwIILCsD/b65Y6hOBQL4DH2gFGtnRf3HwJJ3oZUQjbCwAvdQ/ION0w5qoBbPEnXQM6xm9yt0WPMsKpOEcJvnAc2G5gZqh8u25tOocQnGxT8X+3AOq+C+N7yarga888+k1Gg9t84OIb9+LTqehovJgFdKNwl0btvBB+lkQQXvVN9jrhLh/Auq1s9C8iOBwHivHFWCPEdQp12DH8Mj0GqLdjR/C5F6CFvX6AUPUE/FaBNN+F8IRe9+Lcd1R+OAkvfjxVNdckOTO0VifODiH8tB+AwvD95XNrjqaFmEbPETw/P4ljfDNdhRA8FXGlNu9sIchrC0sGpKRtTY+ZVZpjsQ6V79YrV7KbyWuG5u6iiYTxWc3HnAr+chCAQvBaa5HgH47xjbZ3SP0hCuEBfQlKz9KI8c5BAEb3VoYdwdNxxRLsiSh49OdqAGap1m/AvtuVD8h4YJGQhXEfP63Qy/LsyEAAEyGQpshkN/9iOYIPmifQr2LhQTMo09ag/8Xo62a3vnMWRnoqgmVbNvPf2L8oJ6yjHe+bsgAAAABJRU5ErkJggg==">
+        </div>
+        <div class="text-gray-700 text-sm sm:text-base md:text-xl">
+          Real-time translation of offline conferences for up to 50,000 people in
+          more than 100 simultaneous languages and dialects
+        </div>
+      </div>
+
+      <div class="flex my-4 ">
+        <div class="mobile inline mr-2 md:mr-3">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACoUlEQVR4nKVWS09TURC+S4yW+QoSFSE+orI2MdLOtDa6VVz7FxDY6F9w4QJkpcHK0mA0ghsfO7eAax6yMEA7h4cxRtH4CCJmzr3UpPZeWpzkJDc5c+bxne98c4MgwTSf7nSCfmV6pULzyvTVr/D7pQr6yudbOoJGrZRpOaqCB8r45QTbyjSrQg+d4I4t+1ahuXAPmyooLnNre13BlXFVhTYc03fHGCxlmk/F+ZYvpE47wZBj/LAzKuhJDO4YAyrYckyTK1kcq7fj1W467hhT/qygP6FybKng6WIhaAoatMVC0KSM8ShGTw3MPSyTewm+Y6VMxz4nmFahz0v5g0cqG8oYNczjYCllmluU6YYTumcQrBfaDgQxtpqnE/5OGPfD4Pl0p2cLY7DWgWVubVfBYnQ3Kyr47RgL1nVcEs80xqb3sYqMbnFsUUHRcz9LZ/3hXFqMouUsXYpLoLnUGU/hHK4H/sEwzcQ6C807xuO4/YRzc07ouVFzQZnGkhyVMdFoAif0yIqzABtx+HtHprueANx8rrEEGLLYuyZY695/yDGVjHqOkW84wa4QMZ45oW87uuMYH5Xxvsx0sT6IwkuejU2QTV+zy4pEb0YZt53Qrd3EzZPDLtkk1w6bcMVLNqkKLdl3UtC/Xae6woLSvYHpuW9dMFS7Vbw2Zyf4oIx3VWu0dgIMVx5a2A6K9rxNFWu0etMxnsSsgWr/tRyddIKfyhipkgPPpqn/FTsVvHFCn9YLbYerKkWPl1rG+F6SlCw4Y8JilLPpyzWd/PwNh8a0qWK9wQ0WqzyaBX2JzprDlehRmeQOm3DF+nKqy3wMc4MltvJqs2Fheh6xazv6ixirDP3w+21l6DNG/sG8HvOTjtO9TuhFKHr0xa9IKW0vaS6Y/QEYhKsGfOwKJQAAAABJRU5ErkJggg==">
+
+        </div>
+        <div class="text-gray-700 text-sm sm:text-base md:text-xl">
+          Current addressable market of €27 billion growing rapidly
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="mb-8">
+    <div class="container mx-auto  md:mt-10 px-6">
+      <h4 class="text-center  font-semibold  sm:text-xl">
+        Invest in one of the fastest growing markets globally
+      </h4>
+      <div class="my-6 md:mt-8 text-center">
+        <!-- button -->
+        <a href="#" target="_blank"
+          class="p-3 text-white md:text-2xl  px-6 pt-2 font-semibold bg-primaryColor rounded-full hover:bg-secondaryColor  transition ease-out duration-500">
+          More info
+        </a>
+      </div>
+
+      <h4 class="text-center w-8/12 md:w-5/12 mx-auto font-semibold  sm:text-xl">
+        Key working relationships with
+        global giants in the tech industry
+      </h4>
+
+
+    </div>
+
+
+
+  </section>
+
+
+
+
+
+</body>
+
+</html>
